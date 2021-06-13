@@ -18,7 +18,6 @@ const SELECTROS = {
   postcode: '#postcode',
   mobile: '#phone_mobile',
   registerButton: '#submitAccount'
-
 };
 
 class RegisterPage extends Page {

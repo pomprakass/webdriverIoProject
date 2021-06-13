@@ -98,6 +98,7 @@ exports.config = {
   // If your `url` parameter starts without a scheme or `/` (like `some/path`), the base url
   // gets prepended directly.
   baseUrl: 'http://automationpractice.com',
+  anzUrl: 'https://www.anz.com.au/personal/home-loans/calculators-tools/much-borrow/',
   //
   // Default timeout for all waitFor* commands.
   waitforTimeout: 45000,
@@ -135,7 +136,10 @@ exports.config = {
   // Test reporter for stdout.
   // The only one supported by default is 'dot'
   // see also: https://webdriver.io/docs/dot-reporter
-  reporters: ['spec'],
+  reporters: ['spec', ['allure', {
+    outputDir: 'allure-results',
+    disableWebdriverStepsReporting: true,
+  }]],
 
 
   //

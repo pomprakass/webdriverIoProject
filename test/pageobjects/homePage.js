@@ -3,7 +3,7 @@ import Page from './page';
 const SELECTROS={
   homepageSigninButton: '.login',
   signOut: '.logout',
-  account: '.account'
+  account: '.account',
 };
 
 class HomePage extends Page {
