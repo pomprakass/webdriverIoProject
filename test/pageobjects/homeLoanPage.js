@@ -12,10 +12,10 @@ const SELECTROS={
   otherLoan: '#otherloans',
   others: '[aria-labelledby="q3q4"]',
   creditLimit: '#credit',
-  borrowCalculator:'#btnBorrowCalculater',
-  borrowResult:'#borrowResultTextAmount',
-  startOverButton:'.borrow__result .icon_restart',
-  errorMessage:'.borrow__error__text',
+  borrowCalculator: '#btnBorrowCalculater',
+  borrowResult: '#borrowResultTextAmount',
+  startOverButton: '.borrow__result .icon_restart',
+  errorMessage: '.borrow__error__text',
 
 };
 
